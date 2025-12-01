@@ -3,8 +3,8 @@
 - Calculates EAR (Eye Aspect Ratio) to detect fatigue levels  
 - Displays an on-screen alert when fatigue is detected  
 - Sends a command to Arduino to trigger:
- 1- Red LED  
-2- Buzzer alert  
+  - Red LED  
+  -Buzzer alert  
 - Normal state is shown through a green LED
   
 ---
