@@ -88,3 +88,11 @@ python fatigue_app.py
 ```
 ### 3) Upload Arduino code:
 Open `fatigue_gate.ino` in Arduino IDE and upload it.
+
+---
+## Author
+
+**Amnah Alkhater**  
+Lead Developer and Technical Owner of the Yaqtha Fatigue Detection Project
+
+LinkedIn: https://www.linkedin.com/in/amnahalkhater
