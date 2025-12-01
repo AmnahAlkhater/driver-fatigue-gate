@@ -1,15 +1,12 @@
-# Yaqtha – Driver Fatigue Detection System
-Yaqtha is an intelligent fatigue detection system designed for industrial gate checkpoints.  
-It uses computer vision techniques to analyze real-time eye behavior (EAR – Eye Aspect Ratio) and determine whether the driver is alert or fatigued.  
-When fatigue is detected, the system displays an on-screen warning and sends a command to an Arduino unit to simulate the gate’s response.
-
----
-
 ## Project Overview
-Yaqtha integrates computer vision with hardware simulation to enhance safety at factory entry points.  
-The Python module detects fatigue by analyzing eye landmarks using OpenCV and MediaPipe FaceMesh.  
-Upon detecting fatigue, the system triggers a red LED and buzzer through the Arduino unit, while the normal state is represented by a green LED.
-
+- Uses OpenCV + MediaPipe FaceMesh to analyze real-time eye landmarks  
+- Calculates EAR (Eye Aspect Ratio) to detect fatigue levels  
+- Displays an on-screen alert when fatigue is detected  
+- Sends a command to Arduino to trigger:
+  - 🔴 Red LED  
+  - 🔊 Buzzer alert  
+- Normal state is shown through a green LED
+  
 ---
 
 ## Features
